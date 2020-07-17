@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="krunal.com.example.cameraapp">
+    package="ramim.com.example.ra">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -23,7 +23,7 @@
             android:name="android.support.FILE_PROVIDER_PATHS"
             android:resource="@xml/file_parths" />
         </provider>
-        <activity android:name=".MainActivity"
+        <activity android:name="ramim.com.example.ra.MainActivity"
             android:screenOrientation="portrait">
 
             <intent-filter>

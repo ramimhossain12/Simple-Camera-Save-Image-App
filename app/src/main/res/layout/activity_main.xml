@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:layout_editor_absoluteY="81dp">
+    >
 
     <Button
         android:id="@+id/startCamera"
@@ -21,13 +21,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
+        android:background="#FFC107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="296dp"
+        android:layout_width="match_parent"
         android:layout_height="289dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -64,7 +65,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.063"
-        app:srcCompat="@drawable/ic_clear" />
+        android:backgroundTint="#000000"
+        app:srcCompat="@drawable/delete" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/Save"
@@ -83,8 +85,9 @@
         app:layout_constraintHorizontal_bias="0.231"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#000000"
         app:layout_constraintVertical_bias="0.846"
-        app:srcCompat="@drawable/ic_save" />
+        app:srcCompat="@drawable/save" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/Share"
@@ -98,11 +101,12 @@
         android:layout_marginTop="8dp"
         android:clickable="true"
         android:focusable="true"
+         android:backgroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.79"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.846"
-        app:srcCompat="@drawable/ic_share" />
+        app:srcCompat="@drawable/share" />
 </android.support.constraint.ConstraintLayout>

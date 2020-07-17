@@ -1,4 +1,4 @@
-package krunal.com.example.cameraapp;
+package ramim.com.example.ra;
 
 import org.junit.Test;
 

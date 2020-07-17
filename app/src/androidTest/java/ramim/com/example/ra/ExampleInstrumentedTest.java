@@ -1,4 +1,4 @@
-package krunal.com.example.cameraapp;
+package ramim.com.example.ra;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package krunal.com.example.cameraapp;
+package ramim.com.example.ra;
 
 import android.Manifest;
 import android.content.Intent;
@@ -20,7 +20,6 @@ import android.widget.Toast;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class MainActivity extends AppCompatActivity {
 
